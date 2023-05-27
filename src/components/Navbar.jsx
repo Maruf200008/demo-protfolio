@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' h-[10vh] flex justify-between px-10 py-5 '>
+    <div className=' h-[10vh] flex justify-between px-20 py-14 '>
         <div className=" flex items-center flex-1 gap-x-5">
         <div className=" text-2xl">Maruf</div>
         <span>toggle</span>
@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="button">
+        <div className="button bg-gradient-to-b from-[#f7d80c] to-[#f7910c] text-white rounded-3xl px-5 py-3 cursor-pointer shadow-lg shadow-[#ffed47] hover:bg-gradient-to-b hover:from-[#fff] hover:to-[#fff]  transition hover:border-[#ffb300] hover:text-primary hover:border-2 duration-150">
             Contact us
         </div>
       </div>
