@@ -3,10 +3,14 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import vector1 from "../assets/img/Vector1.png";
 import vector2 from "../assets/img/Vector2.png";
 import boy from "../assets/img/boy.png";
+import crown from "../assets/img/crown.png";
+import glassImoji from "../assets/img/glassesimoji.png";
+import thumbup from "../assets/img/thumbup.png";
+import FloatingDiv from "./FloatingDiv";
 
 const Intro = () => {
   return (
-    <div className="intro px-20 py-14 flex h-[77vh] mt-6 gap-x-10 ">
+    <div className="intro px-20 py-14 flex h-[77vh] mt-6 gap-x-10">
       <div className=" i-left flex relative flex-1 flex-col gap-y-10 ">
         <div className="i-name">
           <h2 className=" text-5xl font-bold leading-[70px] text-primary">
@@ -49,7 +53,16 @@ const Intro = () => {
         <img src={vector1} alt="vector1" />
         <img src={vector2} alt="vector2" />
         <img src={boy} alt="boy" />
-        <div></div>
+        <img src={glassImoji} alt="glassImoji" />
+        <div className=" -top-4 left-[64%]">
+          <FloatingDiv crown={crown} text1="Web" text2="Developer" />
+        </div>
+        <div className=" top-[22rem] left-[3rem]">
+          <FloatingDiv crown={thumbup} text1="Best Design" text2="Award" />
+        </div>
+        {/* blur divs  */}
+        <div className="blur bg-[rgb(238 210 255)] absolute w-[22rem] h-[14rem] rounded-3xl bg-[#edd0ff] blur-[72px] top-[-18%] left-[56%] "></div>
+        <div className="blur bg-[rgb(238 210 255)] absolute w-[21rem] h-[11rem] rounded-3xl bg-[#c1f5ff] blur-[72px] top-[17rem] left-[-9rem] "></div>
       </div>
     </div>
   );
