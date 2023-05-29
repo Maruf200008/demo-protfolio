@@ -38,3 +38,85 @@
 .blur {
   z-index: -9;
 }
+.circle::before {
+  border-radius: 100%;
+  content: "";
+  background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+  top: -8px;
+  left: -8px;
+  bottom: -8px;
+  right: -8px;
+  position: absolute;
+  z-index: -1;
+}
+.w-mainCircle > * {
+  position: absolute;
+}
+.w-mainCircle > :nth-child(1) {
+  top: -3rem;
+  left: 8rem;
+}
+.w-mainCircle > :nth-child(2) {
+  left: -2rem;
+  top: 8rem;
+}
+.w-mainCircle > :nth-child(3) {
+  left: 8rem;
+  top: 7rem;
+}
+.w-mainCircle > :nth-child(4) {
+  left: 18rem;
+  top: 8rem;
+}
+.w-mainCircle > :nth-child(5) {
+  left: 8rem;
+  top: 18rem;
+}
+.w-secCircle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  background: white;
+}
+.w-secCircle > img {
+  transform: scale(0.7);
+}
+.portfolio .swiper {
+  overflow: visible !important;
+}
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+.portfolio img {
+  width: 29rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+  border-radius: 19px;
+}
+
+.t-heading {
+  align-self: start;
+}
+
+.t-blur1 {
+  left: 60rem;
+  top: 16rem;
+}
+.t-blur2 {
+  top: 9rem;
+  left: 20rem;
+}
+
+.testmonials {
+  background: rgba(255, 255, 255, 0.26);
+  border-radius: 20px;
+}
