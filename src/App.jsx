@@ -1,9 +1,11 @@
 import "./App.css";
-import { Experince, Intro, Navbar, Portfolio, Services, Testmonials, Works } from "./components";
+import { Contact, Experince, Intro, Navbar, Portfolio, Services, Testmonials, Works } from "./components";
 
 function App() {
+
+ 
   return (
-    <div>
+    <div className=" ">
       <Navbar />
       <Intro />
       <Services />
@@ -11,6 +13,7 @@ function App() {
       <Works/>
       <Portfolio/>
       <Testmonials/>
+      <Contact/>
     </div>
   );
 }

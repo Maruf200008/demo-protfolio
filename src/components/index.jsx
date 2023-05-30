@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Contact from "./Contact";
 import Experince from "./Experince";
 import FloatingDiv from "./FloatingDiv";
 import Intro from "./Intro";
@@ -8,5 +9,5 @@ import Services from "./Services";
 import Testmonials from "./Testmonials";
 import Works from "./Works";
 
-export { Navbar, Intro, FloatingDiv, Services, Card, Experince, Works, Portfolio, Testmonials };
+export { Navbar, Intro, FloatingDiv, Services, Card, Experince, Works, Portfolio, Testmonials, Contact };
 

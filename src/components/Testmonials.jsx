@@ -32,8 +32,8 @@ const Testmonials = () => {
   ];
   return (
     <div className=" portfolio px-20 py-14 mt-24 gap-x-10 h-[100vh] t-wrapper flex items-center justify-center flex-col gap-6 relative">
-      <div className="t-heading">
-        <h2 className=" text-4xl font-bold">
+      <div className="t-heading  ">
+        <h2 className=" text-4xl font-bold mb-14 ">
           Clients Always Get{" "}
           <span className=" text-primary">Exceptional Work</span> For Me...
         </h2>
@@ -49,9 +49,9 @@ const Testmonials = () => {
         {clients.map((client, index) => {
           return (
             <SwiperSlide key={index}>
-              <div className="testmonials flex flex-col items-center justify-evenly w-[30rem] h-[12rem]">
+              <div className="testmonials px-7  border-[7px] border-blue-300 shadow-xl  border3 flex flex-col items-center justify-evenly w-[40rem] h-[30rem]">
                 <img src={client.img} alt="" />
-                <p>{client.review}</p>
+                <p className=" text-gray-700">{client.review}</p>
               </div>
             </SwiperSlide>
           );
