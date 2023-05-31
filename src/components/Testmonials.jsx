@@ -31,9 +31,9 @@ const Testmonials = () => {
     },
   ];
   return (
-    <div className=" portfolio px-20 py-14 mt-24 gap-x-10 h-[100vh] t-wrapper flex items-center justify-center flex-col gap-6 relative">
+    <div className=" portfolio px-20 py-14 gap-x-10 h-[100vh] t-wrapper flex items-center justify-center flex-col gap-6 relative dark:bg-slate-800" id="Testmonials">
       <div className="t-heading  ">
-        <h2 className=" text-4xl font-bold mb-14 ">
+        <h2 className=" text-4xl font-bold mb-14 dark:text-white ">
           Clients Always Get{" "}
           <span className=" text-primary">Exceptional Work</span> For Me...
         </h2>
@@ -50,8 +50,8 @@ const Testmonials = () => {
           return (
             <SwiperSlide key={index}>
               <div className="testmonials px-7  border-[7px] border-blue-300 shadow-xl  border3 flex flex-col items-center justify-evenly w-[40rem] h-[30rem]">
-                <img src={client.img} alt="" />
-                <p className=" text-gray-700">{client.review}</p>
+                <img src={client.img} alt="" className=" dark:border-4"/>
+                <p className=" text-gray-700 dark:text-gray-200">{client.review}</p>
               </div>
             </SwiperSlide>
           );

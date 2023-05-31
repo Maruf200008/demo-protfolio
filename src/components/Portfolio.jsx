@@ -8,10 +8,10 @@ import sidebar from "../assets/img/sidebar.png";
 
 const Portfolio = () => {
   return (
-    <div className=" portfolio px-20 py-14  mt-10 gap-x-10  flex items-center justify-center flex-col h-[70vh] ">
+    <div className=" portfolio px-20 py-14 gap-x-10  flex items-center justify-center flex-col h-[90vh] dark:bg-slate-900" id="Portfolio">
       {/* heading  */}
       <div className=" flex flex-col justify-center items-center mb-14 gap-y-4">
-        <h2 className=" text-gray-800 text-3xl font-bold">Recent Projects</h2>
+        <h2 className=" text-gray-800 text-3xl font-bold dark:text-white">Recent Projects</h2>
         <p className=" text-primary text-5xl font-bold">Portfolio</p>
       </div>
 
